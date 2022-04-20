@@ -1,11 +1,15 @@
 /* Landing page */
-. {
+*{
   font-family: "Roboto Slab", serif;
-  margin: 0;
+  margin: 20px;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 16px;
+}
+
+body{
+  background-image: url("./images/portfoliobackground.jpg");
 }
 #landing {
   display: flex;
