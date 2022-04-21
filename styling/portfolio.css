@@ -10,7 +10,7 @@
   /* PORTFOLIO */
 #portfolio{
     padding 5% 10%;
-    color: whitesmoke;
+    color: rgb(52, 51, 51);
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -33,6 +33,7 @@
     gap: 30px;
     justify-content:center;
     flex-direction: column;
+    margin: 40px;
   }
 
   .port-container p{
@@ -49,7 +50,8 @@
   }
   
   .card > i{
-    font-size: 60px;
+    font-size: 100px;
+    color: black;
   }
 
   /* footer */

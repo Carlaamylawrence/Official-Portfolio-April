@@ -1,4 +1,4 @@
-.{
+. {
   font-family: "Roboto Slab", serif;
   margin: 0;
   padding: 0;
@@ -7,12 +7,13 @@
   font-size: 16px;
 }
 
-#about{
+#about {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5% 10%;
 }
-.about-container{
+.about-container {
   position: relative;
   width: 100%;
   display: flex;
@@ -20,48 +21,107 @@
   align-items: center;
   flex-wrap: wrap;
 }
-h2{
+h2 {
   font-size: 30px;
   color: rgb(53, 53, 53);
   font-family: sans-serif;
-  font-weight:300px;
+  font-weight: 300px;
   font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-h3{
+h3 {
   font-size: 20px;
   color: grey;
   font-family: sans-serif;
   font-weight: 100;
   font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
 }
 
-.about-container .about-sec{
+.about-container .about-sec {
   position: relative;
   max-width: 100%;
-  margin:10px;
-  padding:15px;
-  display:flex;
+  margin: 30px;
+  padding: 15px;
+  display: flex;
 }
 
-.about-container .about-sec .image1{
+.about-container .about-sec .image1 {
   max-width: 15px;
   flex: 0 0 15px;
 }
 
-.about-container .about-sec .image1 img{
-  max-width: 15%;
+.about-container .about-sec .about-content {
+  margin-left: 70px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 20px;
 }
 
-.about-container .about-sec .about-content{
-  margin-left: 40px;
+.about-text {
+  margin-top: 50px;
 }
 
+/* skills */
+#skills {
+  display: flex;
+  padding: 5% 10%;
+  background-color: rgba(255, 255, 255, 0.852);
+  background-size: cover;
+}
+
+.progress-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.progress-container {
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; Add bottom padding
+  color: rgb(89, 89, 89); /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #7ebbb5;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #7ebbb5;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #7ebbb5;
+}
+
+/*TESTIMONIAL  */
+#testimonial{
+  padding: 5% 10%;
+  background-color: rgba(252, 252, 252, 0.595);
+  background-size: cover;
+}
+.testimonial-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px;
+}
 
 /* footer */
- .footer-text {
+.footer-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
