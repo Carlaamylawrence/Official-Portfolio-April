@@ -58,6 +58,7 @@ h3 {
 .about-container .about-sec .about-content {
   margin-left: 70px;
 }
+
 .row {
   display: flex;
   flex-direction: row;
@@ -121,12 +122,34 @@ h3 {
   flex-direction: column;
   margin: 40px;
 }
+
+.individuals {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+  border-radius: 19px;
+  background: #090909;
+  box-shadow: 5px 5px 10px #5eb2dc, -5px -5px 10px #55b7c2;
+  display: flex;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 19px;
+}
+
 button.nav-button {
   width: 30px;
   position: fixed;
   top: 25px;
   right: 30px;
   display: none;
+  background-color: #93b6c8;
+  border-radius: 12px;
 }
 
 

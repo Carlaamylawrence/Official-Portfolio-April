@@ -11,8 +11,9 @@
 #portfolio {
   display: flex;
   padding: 5% 10%;
-  background-color: rgba(255, 255, 255, 0.852);
+  background-color: rgba(237, 247, 246, 0.852);
   background-size: cover;
+  background-position: ;
 }
 h2 {
   font-size: 30px;
@@ -30,11 +31,21 @@ h2 {
   gap: 30px;
   align-items: center;
 }
-
-.card {
+.projects {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
-p {
-  text-decoration: none;
+.card {
+  border-radius: 19px;
+  background: #090909;
+  box-shadow: 5px 5px 10px #5eb2dc, -5px -5px 10px #55b7c2;
+  display: flex;
+}
+img {
+  width: 350px;
+  height: 200px;
+  border-radius: 19px;
 }
 
 button.nav-button {
@@ -43,6 +54,8 @@ button.nav-button {
   top: 25px;
   right: 30px;
   display: none;
+  background-color: #93b6c8;
+  border-radius: 12px;
 }
 
 /* footer */

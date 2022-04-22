@@ -13,6 +13,8 @@ button.nav-button {
   top: 25px;
   right: 30px;
   display: none;
+  background-color: #93b6c8;
+  border-radius: 12px;
 }
 
 #landing {
