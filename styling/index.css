@@ -7,6 +7,13 @@
   scroll-behavior: smooth;
   font-size: 16px;
 }
+button.nav-button {
+  width: 30px;
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  display: none;
+}
 
 #landing {
   display: flex;
@@ -79,14 +86,14 @@ h2 {
   margin-top: 100px;
 }
 
-/* MEDIA QUERY */
-@media only screen and (max-width: 840px) {
-  .nav-button {
+@media (max-width: 840px) {
+  .header-container {
     display: none;
-    display: block;
   }
+}
 
-  .nav-links {
-    display: none;
+@media (max-width: 840px) {
+  button.nav-button {
+    display: block;
   }
 }

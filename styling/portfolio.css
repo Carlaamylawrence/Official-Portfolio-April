@@ -1,70 +1,74 @@
-.{
-    font-family: "Roboto Slab", serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-size: 16px;
-  }
+. {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
 
-  /* PORTFOLIO */
-#portfolio{
-    padding 5% 10%;
-    color: rgb(52, 51, 51);
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: stretch;
-  }
-  
-  #portfolio h2{
-    font-size: 30px;
-    color: rgb(53, 53, 53);
-    font-family: sans-serif;
-    font-weight:300px;
-    font-family: "Open Sans", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .port-container{
-    display: flex;
-    gap: 30px;
-    justify-content:center;
-    flex-direction: column;
-    margin: 40px;
-  }
+/* PORTFOLIO */
+#portfolio {
+  display: flex;
+  padding: 5% 10%;
+  background-color: rgba(255, 255, 255, 0.852);
+  background-size: cover;
+}
+h2 {
+  font-size: 30px;
+  color: rgb(53, 53, 53);
+  font-family: sans-serif;
+  font-weight: 300px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline rgb(72, 156, 216);
+  margin-bottom: 20px;
+}
 
-  .port-container p{
-      text-align: center;
-      color:black;
-  }
-  
-  .card{
-    box-shadow: 1px 1px 10px;
-    padding: 20px;
-    width:30%;
-    display: flex;
-   justify-content: center;
-  }
-  
-  .card > i{
-    font-size: 100px;
-    color: black;
-  }
+.port-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
 
-  /* footer */
- .footer-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 90px;
-    background-color: rgb(110, 105, 105);
-    color: rgb(61, 60, 60);
-    margin-top: 100px;
+.card {
+}
+p {
+  text-decoration: none;
+}
+
+button.nav-button {
+  width: 30px;
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  display: none;
+}
+
+/* footer */
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(110, 105, 105);
+  color: rgb(61, 60, 60);
+  margin-top: 100px;
+}
+
+/* MR */
+@media (max-width: 840px) {
+  .header-container {
+    display: none;
   }
+}
+
+@media (max-width: 840px) {
+  button.nav-button {
+    display: block;
+  }
+}

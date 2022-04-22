@@ -9,9 +9,10 @@
 
 #about {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 5% 10%;
+  background-color: rgba(255, 255, 255, 0.852);
+  background-size: cover;
+}
 }
 .about-container {
   position: relative;
@@ -30,6 +31,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: underline rgb(72, 156, 216);
 }
 h3 {
   font-size: 20px;
@@ -119,6 +121,14 @@ h3 {
   flex-direction: column;
   margin: 40px;
 }
+button.nav-button {
+  width: 30px;
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  display: none;
+}
+
 
 /* footer */
 .footer-text {
@@ -133,4 +143,17 @@ h3 {
   background-color: rgb(110, 105, 105);
   color: rgb(61, 60, 60);
   margin-top: 100px;
+}
+
+/* MR */
+@media (max-width: 840px) {
+  .header-container {
+    display: none;
+  }
+}
+
+@media (max-width: 840px) {
+  button.nav-button {
+    display: block;
+  }
 }
