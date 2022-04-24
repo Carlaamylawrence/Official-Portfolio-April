@@ -11,9 +11,10 @@
 #portfolio {
   display: flex;
   padding: 5% 10%;
-  background-color: rgba(237, 247, 246, 0.852);
-  background-size: cover;
-  background-position: ;
+}
+
+#portfolio p{
+  text-align: center;
 }
 h2 {
   font-size: 30px;
@@ -38,9 +39,15 @@ h2 {
 }
 .card {
   border-radius: 19px;
-  background: #090909;
-  box-shadow: 5px 5px 10px #5eb2dc, -5px -5px 10px #55b7c2;
+  width:400px;
+  height:300px;
+  background: #fffdfd;
+  box-shadow: 5px 5px 10px #D6E2FF, -5px -5px 10px #C2D4FF;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
 }
 img {
   width: 350px;

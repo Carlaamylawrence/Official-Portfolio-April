@@ -10,6 +10,15 @@
 section {
   min-height: 80vh;
 }
+#contact {
+  display: flex;
+  padding: 5% 10%;
+  background-color: rgba(229, 245, 255, 0.852);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+}
 
 h2 {
   font-size: 30px;
@@ -65,8 +74,11 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  box-shadow: 2px 1px 1px black;
 }
-
+button:hover{
+  background-color: rgb(122, 159, 223);
+}
 button.nav-button {
   width: 30px;
   position: fixed;
