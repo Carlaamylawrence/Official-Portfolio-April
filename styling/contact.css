@@ -8,7 +8,7 @@
 }
 
 section {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 #contact {
   display: flex;
@@ -17,7 +17,6 @@ section {
   background-size: cover;
   display: flex;
   flex-direction: column;
-
 }
 
 h2 {
@@ -40,6 +39,19 @@ h3 {
   font-weight: 100;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 30px;
+}
+/* map */
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 400px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+  width: 400px;
 }
 
 .contact-container {
@@ -76,17 +88,8 @@ button {
   font-size: 16px;
   box-shadow: 2px 1px 1px black;
 }
-button:hover{
+button:hover {
   background-color: rgb(122, 159, 223);
-}
-button.nav-button {
-  width: 30px;
-  position: fixed;
-  top: 25px;
-  right: 30px;
-  display: none;
-  background-color: #93b6c8;
-  border-radius: 12px;
 }
 
 /* footer */

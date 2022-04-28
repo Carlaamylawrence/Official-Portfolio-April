@@ -13,7 +13,7 @@
   padding: 5% 10%;
 }
 
-#portfolio p{
+#portfolio p {
   text-align: center;
 }
 h2 {
@@ -39,10 +39,10 @@ h2 {
 }
 .card {
   border-radius: 19px;
-  width:400px;
-  height:300px;
+  width: 400px;
+  height: 300px;
   background: #fffdfd;
-  box-shadow: 5px 5px 10px #D6E2FF, -5px -5px 10px #C2D4FF;
+  box-shadow: 5px 5px 10px #d6e2ff, -5px -5px 10px #c2d4ff;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -53,16 +53,6 @@ img {
   width: 350px;
   height: 200px;
   border-radius: 19px;
-}
-
-button.nav-button {
-  width: 30px;
-  position: fixed;
-  top: 25px;
-  right: 30px;
-  display: none;
-  background-color: #93b6c8;
-  border-radius: 12px;
 }
 
 /* footer */
