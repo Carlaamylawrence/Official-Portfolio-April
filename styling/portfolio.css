@@ -8,52 +8,6 @@
 }
 
 /* PORTFOLIO */
-#portfolio {
-  display: flex;
-  padding: 5% 10%;
-}
-
-#portfolio p {
-  text-align: center;
-}
-h2 {
-  font-size: 30px;
-  color: rgb(53, 53, 53);
-  font-family: sans-serif;
-  font-weight: 300px;
-  font-family: "Open Sans", sans-serif;
-  text-decoration: underline rgb(72, 156, 216);
-  margin-bottom: 20px;
-}
-
-.port-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-}
-.projects {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-.card {
-  border-radius: 19px;
-  width: 400px;
-  height: 300px;
-  background: #fffdfd;
-  box-shadow: 5px 5px 10px #d6e2ff, -5px -5px 10px #c2d4ff;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  list-style: none;
-  text-align: center;
-}
-img {
-  width: 350px;
-  height: 200px;
-  border-radius: 19px;
-}
 
 /* footer */
 .footer-text {

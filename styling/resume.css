@@ -53,19 +53,37 @@ h5 {
   background: #fff;
   border: 2px solid #34b7a7;
 }
-/* .work {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style: inside;
-  margin-bottom: 20px;
-}
 
-.education {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-} */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 40px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
 
 /* footer */
 .footer-text {

@@ -15,8 +15,6 @@ section {
   padding: 5% 10%;
   background-color: rgba(229, 245, 255, 0.852);
   background-size: cover;
-  display: flex;
-  flex-direction: column;
 }
 
 h2 {
@@ -25,11 +23,8 @@ h2 {
   font-family: sans-serif;
   font-weight: 300px;
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   margin: 20px;
-  text-decoration: underline rgb(72, 156, 216);
 }
 
 h3 {
@@ -73,7 +68,7 @@ form {
   flex-wrap: wrap;
 }
 
-button {
+/* button {
   background-color: #93b6c8;
   border-radius: 12px;
   width: 20%;
@@ -87,9 +82,56 @@ button {
   display: inline-block;
   font-size: 16px;
   box-shadow: 2px 1px 1px black;
+} */
+
+/* Animation property */
+button {
+  animation: wiggle 2s linear infinite;
 }
-button:hover {
-  background-color: rgb(122, 159, 223);
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+button {
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+
+  height: 4em;
+  width: 7em;
+
+  background: rgb(105, 121, 130);
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 3px solid rgb(104, 180, 238);
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
 }
 
 /* footer */
