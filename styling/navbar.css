@@ -38,8 +38,8 @@ a.link {
   color: black;
 }
 a.link:hover {
-  text-decoration: 4px solid underline rgb(164, 164, 245);
-  background-color: rgb(112, 131, 158);
+  text-decoration: 4px solid underline rgb(86, 86, 180) !important;
+  background-color: rgb(112, 131, 158) !important;
 }
 .fa-brands,
 .fab {

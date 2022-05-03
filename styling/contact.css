@@ -6,26 +6,16 @@
   scroll-behavior: smooth;
   font-size: 16px;
 }
-
-}
-#contact {
-  display: flex;
+#contact{
   padding: 5% 10%;
-  background-color: rgba(229, 245, 255, 0.852);
+  background-color:#dfd8d8;
   background-size: cover;
-   min-height: 90vh;
 }
-
 h2 {
-  font-size: 30px;
-  color: rgb(53, 53, 53);
-  font-family: sans-serif;
-  font-weight: 300px;
-  font-family: "Open Sans", sans-serif;
-
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 h3 {
   font-size: 20px;
   color: grey;
@@ -124,7 +114,7 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 90px;
+  height: 60px;
   background-color: rgb(110, 105, 105);
   color: rgb(61, 60, 60);
   margin-top: 100px;
@@ -140,6 +130,9 @@ button {
 
 @media (max-width: 840px) {
   button.nav-button {
+    display: block;
+  }
+  #footer{
     display: block;
   }
 }
