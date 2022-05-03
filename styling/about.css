@@ -195,10 +195,8 @@ h5 {
 }
 /* footer */
 .footer-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  z-index: 30;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -206,6 +204,7 @@ h5 {
   background-color: rgb(110, 105, 105);
   color: rgb(61, 60, 60);
   margin-top: 100px;
+}
 }
 
 /* MR */
