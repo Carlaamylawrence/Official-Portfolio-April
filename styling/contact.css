@@ -7,14 +7,13 @@
   font-size: 16px;
 }
 
-section {
-  min-height: 90vh;
 }
 #contact {
   display: flex;
   padding: 5% 10%;
   background-color: rgba(229, 245, 255, 0.852);
   background-size: cover;
+   min-height: 90vh;
 }
 
 h2 {

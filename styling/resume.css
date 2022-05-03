@@ -12,18 +12,7 @@
   background-color: rgba(255, 255, 255, 0.852);
   background-size: cover;
 }
-h2 {
-  font-size: 30px;
-  color: rgb(53, 53, 53);
-  font-family: sans-serif;
-  font-weight: 300px;
-  font-family: "Open Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: underline rgb(72, 156, 216);
-  margin-bottom: 20px;
-}
+
 
 h4 {
   font-size: 20px;
@@ -66,7 +55,7 @@ ul.timeline:before {
   left: 29px;
   width: 2px;
   height: 100%;
-  z-index: 400;
+  z-index: 10;
 }
 ul.timeline > li {
   margin: 20px 0;
@@ -82,7 +71,7 @@ ul.timeline > li:before {
   left: 20px;
   width: 20px;
   height: 20px;
-  z-index: 400;
+  z-index: 10;
 }
 
 /* footer */
@@ -95,6 +84,7 @@ ul.timeline > li:before {
   background-color: rgb(110, 105, 105);
   color: rgb(61, 60, 60);
   margin-top: 100px;
+  z-index: 100;
 }
 }
 /* MR */
