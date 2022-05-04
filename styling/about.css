@@ -180,6 +180,7 @@ h5 {
 /*TESTIMONIALs*/
 #testimonials {
   min-height: 90vh;
+  padding: 5% 10%;
   background: linear-gradient(
       0deg,
       rgba(123, 167, 164, 0.5),
